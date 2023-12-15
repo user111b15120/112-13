@@ -1,10 +1,7 @@
-import java.util.Scanner;
-
 public class Ex02{
     public static void main(String[] args){
-        try (Scanner s = new Scanner(System.in)) {
             int num = 12;
-            int den = s.nextInt();
+            int den = 0;
         if (den == 0){
             System.out.println("除數為0");}
         else{
@@ -12,4 +9,3 @@ public class Ex02{
             System.out.println("ans = " + ans);}
         }
     }
-}
